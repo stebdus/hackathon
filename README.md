@@ -11,9 +11,12 @@ Software in this repo includes two services:
 
 * **webapp**: Web app that queries ElasticSearch for available cameras and existing photos and displays them. Also allows taking new photos by calling the RESTful API of the camera-webservice.  This app is written in Ruby and includes a Dockerfile for containerized use.
 
-# Hack-night instructions
+# Hack instructions
 
-The hack-night is intended to be a lightly structured event designed to allow hackers to explore, innovate and learn. The following instructions are provided as general roadmap to provide some structure.
+The hack is intended to be a lightly structured event designed to allow hackers to explore, innovate and learn. The following instructions are provided as general roadmap to provide some structure.
+
+# Access to environment
+
 
 ## Getting help
 * Google and YouTube are your best friends. If you have a question, are getting an error message, or need to learn something, then google first
