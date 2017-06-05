@@ -15,13 +15,14 @@ Here is a Python webservice called webservice.py written for this event.  Google
 1. Copy the camera-webserivce `config.json.example` to `config.json`
 1. Update all parameters to meet your needs
 1. For the `camera_command` parameter these might be helpful:
-    * Example linux USB camera: `fswebcam -r 1280x720 --jpeg 85 --no-banner -S 20`
-    * Example native raspberry camera module: `raspistill -o`
+    * Example linux USB camera: `fswebcam -r 1280x720 --jpeg 85 --no-banner -S 20` (rasp2 is using an old USB camera. Preload the driver with LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libv4l/v4l1compat.so fswebcam test.jpg)
+    * Example native raspberry camera module: `raspistill -o` (rasp3 is using the PI-Camera)
     * Example windows usb camera: `CommandCam.exe /quiet /filename`
 
 ### 3 - Run the Camera webservice
 1. Start it up with `python webservice.py`.  Do you see any errors? Troubleshoot and fix them.
 1. Use your browser to load `http://ip_address:8080`  Does it report that everything is ok?  If not, troubleshoot and fix them.
+* To access the webservice you have to use a ssh tunnel. 
 
 ### 4 -Take a photo
 1. Use your browser to call the API:
