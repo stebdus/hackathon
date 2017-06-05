@@ -18,9 +18,9 @@ Software in this repo includes two services:
 
 # Access to environment
 ![hackerthon_rasp](https://cloud.githubusercontent.com/assets/19547781/26778279/e4c1c9ea-49e0-11e7-936f-f9145ded9a19.png)
-Domain name for raspberry access: See whiteboard (use ssh)
-User: pi
-Passwd: letMe!n
+* Domain name for raspberry access: See whiteboard (use ssh)
+* User: pi
+* Passwd: letMe!n
 
 ## Getting help
 * Google and YouTube are your best friends. If you have a question, are getting an error message, or need to learn something, then google first
