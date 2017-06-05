@@ -22,7 +22,7 @@ Here is a Python webservice called webservice.py written for this event.  Google
 ### 3 - Run the Camera webservice
 1. Start it up with `python webservice.py`.  Do you see any errors? Troubleshoot and fix them.
 1. Use your browser to load `http://ip_address:8080`  Does it report that everything is ok?  If not, troubleshoot and fix them.
-* To access the webservice you have to use a ssh tunnel. Here is an example with putty. after establishing the ssh connection, just open your web browser with 127.0.0.1:port
+* To access the webservice you have to use a ssh tunnel. Here is an example with putty. after establishing the ssh connection, just open your web browser with `http://127.0.0.1:9080`
 ![ssh-tunnel](https://cloud.githubusercontent.com/assets/19547781/26794330/8a702d10-4a21-11e7-90d4-8f5c84a076f6.JPG)
 
 ### 4 -Take a photo
