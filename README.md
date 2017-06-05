@@ -16,7 +16,7 @@ Software in this repo includes two services:
 The hack is intended to be a lightly structured event designed to allow hackers to explore, innovate and learn. The following instructions are provided as general roadmap to provide some structure.
 
 # Access to environment
-
+hackathon/hackerthon_rasp.png
 
 ## Getting help
 * Google and YouTube are your best friends. If you have a question, are getting an error message, or need to learn something, then google first
