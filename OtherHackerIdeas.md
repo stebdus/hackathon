@@ -1,4 +1,4 @@
-# Other Hack-night ideas
+# Other Hacking ideas
 
 1. Use Jenkins to build and manage your continues integration flow  
 1. Extend the webservice to include provide input and buttons to allow providing additional input or or to control what the webservice does. 
