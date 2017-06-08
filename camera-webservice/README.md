@@ -25,10 +25,11 @@ Here is a Python webservice called webservice.py written for this event.  Google
 * To access the webservice you have to use a ssh tunnel. Here is an example with putty. after establishing the ssh connection, just open your web browser with `http://127.0.0.1:9080`
 ![ssh-tunnel](https://user-images.githubusercontent.com/19547781/26928554-d5ada37a-4c56-11e7-975a-7469569650fa.JPG)
 
-### 4 -Take a photo
+### 4 - Take a photo
 1. Use your browser to call the API over ssh:
  * `http://ip_address:9080/take_photo`
  *   Does it report that everything is ok?  Can you view your photo?  If not, troubleshoot and fix.
 1. Use curl to call the API:
  * `curl http://ip_address:9080/take_photo`
-
+ 
+ ### 5 - Check your S3 bucket
