@@ -26,9 +26,9 @@ Here is a Python webservice called webservice.py written for this event.  Google
 ![ssh-tunnel](https://user-images.githubusercontent.com/19547781/26928554-d5ada37a-4c56-11e7-975a-7469569650fa.JPG)
 
 ### 4 -Take a photo
-1. Use your browser to call the API:
- * `http://ip_address:8080/take_photo`
+1. Use your browser to call the API over ssh:
+ * `http://ip_address:9080/take_photo`
  *   Does it report that everything is ok?  Can you view your photo?  If not, troubleshoot and fix.
 1. Use curl to call the API:
- * `curl http://ip_address:8080/take_photo`
+ * `curl http://ip_address:9080/take_photo`
 
