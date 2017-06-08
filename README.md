@@ -23,6 +23,8 @@ Software in this repo includes two services:
 * Passwd: letMe!n
 
 # Access the S3 storage environment
+* Domain name for S3 access: See whiteboard
+
 #### User: group1
 * Access Key ID: OVM1VCC08WJ79OYJP2ET
 * Secret Access Key: cbcBxPBJPDp/o14hewnvtEgu0LSUPxho+iUiQgTD
