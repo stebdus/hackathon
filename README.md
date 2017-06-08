@@ -16,11 +16,33 @@ Software in this repo includes two services:
 * **webapp**: Web app that queries ElasticSearch for available cameras and existing photos and displays them. Also allows taking new photos by calling the RESTful API of the camera-webservice.  This app is written in Ruby and includes a Dockerfile for containerized use.
 
 
-# Access to environment
+# Access to compute environment
 ![hackerthon_rasp1](https://cloud.githubusercontent.com/assets/19547781/26785468/d460cf66-4a02-11e7-9513-3bf331af2a0d.png)
 * Domain name for raspberry access: See whiteboard (use ssh)
 * User: pi
 * Passwd: letMe!n
+
+# Access the S3 storage environment
+#### User: group1
+* Access Key ID: OVM1VCC08WJ79OYJP2ET
+* Secret Access Key: cbcBxPBJPDp/o14hewnvtEgu0LSUPxho+iUiQgTD
+ 
+#### User: group2
+* Access Key ID: 25Q9R91DFY5SCBWSFMM7
+* Secret Access Key: C9B19B++T/oFpsbBIVniVeMTy6XmVPXFf4lFA1Di
+ 
+#### User: group3
+* Access Key ID: UGZWGFLJV5KEWH85DZPC
+* Secret Access Key: xH3TgDBTpP9UKmP5i4wSPnDF71LpPVylVrDQZWol
+ 
+#### User: group4
+* Access Key ID: 255S3GEQKOXYY8SIZJFU
+* Secret Access Key: UM7rgzUaCJyo4+hvpUXARtNeFDWF4RE3fBusKcGR
+ 
+#### User: group5
+* Access Key ID: H424JOIIRN71V06ZRSN4
+* Secret Access Key: q2GGMAzeA/sgknPgtjqyC7aDyB3Sb+CpJljtuopW
+
 
 ## Getting help
 * Google and YouTube are your best friends. If you have a question, are getting an error message, or need to learn something, then google first
